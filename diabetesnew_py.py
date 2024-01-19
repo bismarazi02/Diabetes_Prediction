@@ -14,7 +14,7 @@ import numpy as np
 
 
 
-df = pd.read_csv('/content/diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 st.title('Diabetes Checkup')
 st.sidebar.header('Patient Data')
 st.subheader('Training Data Stats')
