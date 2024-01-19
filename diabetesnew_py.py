@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 """diabetesnew.py
 
@@ -15,6 +16,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import numpy as np
+import sklearn
 from sklearn.model_selection import train_test_split
 
 
