@@ -9,6 +9,28 @@ Original file is located at
 
 
 
+df = pd.read_csv('/content/diabetes.csv')
+
+# IMPORT STATEMENTS
+import streamlit as st
+import pandas as pd
+from PIL import Image
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.figure_factory as ff
+from sklearn.metrics import accuracy_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+import seaborn as sns
+
+!pip install streamlit
+!pip install pandas
+!pip install sklearn
+
+# IMPORT STATEMENTS
+
+
+
 
 # HEADINGS
 st.title('Diabetes Checkup')
