@@ -9,7 +9,11 @@ Original file is located at
 """
 
 # Install required packages
-pip install scikit-learn streamlit pandas seaborn matplotlib
+pip install scikit-learn
+pip install streamlit
+pip install pandas
+pip install seaborn
+pip install  matplotlib
 streamlit run diabetesnew.py
 try:
     import streamlit as st
