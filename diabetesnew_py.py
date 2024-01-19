@@ -9,13 +9,27 @@ Original file is located at
 """
 
 # Install required packages
-subprocess.run(['pip', 'install', 'streamlit', 'pandas', 'seaborn', 'matplotlib'])
-import streamlit as st
-import pandas as pd
-from PIL import Image
-import numpy as np
+pip install scikit-learn streamlit pandas seaborn matplotlib
+streamlit run diabetesnew.py
+try:
+    import streamlit as st
+    import pandas as pd
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import accuracy_score
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+except ImportError:
+    import subprocess
+    subprocess.run(['pip', 'install', 'scikit-learn', 'streamlit', 'pandas', 'seaborn', 'matplotlib'])
+    import streamlit as st
+    import pandas as pd
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import accuracy_score
+    import seaborn as sns
+    import matplotlib.pyplot as plt
 
-from sklearn.model_selection import train_test_split
 
 
 df = pd.read_csv('diabetes.csv')
