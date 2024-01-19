@@ -9,7 +9,7 @@ Original file is located at
 """
 
 # Install required packages
-subprocess.run(['pip', 'install', 'sklearn', 'streamlit', 'pandas', 'seaborn', 'matplotlib'])
+subprocess.run(['pip', 'install', 'streamlit', 'pandas', 'seaborn', 'matplotlib'])
 import streamlit as st
 import pandas as pd
 from PIL import Image
