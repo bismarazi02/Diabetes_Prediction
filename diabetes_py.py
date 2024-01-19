@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1soEbM-nB4u8RV1rnog-FaGHiriD4SK9A
 """
 
-
-
 df = pd.read_csv('/content/diabetes.csv')
 
 # IMPORT STATEMENTS
@@ -22,16 +20,6 @@ from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import seaborn as sns
-
-!pip install streamlit
-!pip install pandas
-!pip install sklearn
-
-# IMPORT STATEMENTS
-
-
-
-
 # HEADINGS
 st.title('Diabetes Checkup')
 st.sidebar.header('Patient Data')
