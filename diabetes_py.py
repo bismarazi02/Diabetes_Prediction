@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1soEbM-nB4u8RV1rnog-FaGHiriD4SK9A
 """
 
-df = pd.read_csv('diabetes.csv')
 
 # IMPORT STATEMENTS
 import streamlit as st
