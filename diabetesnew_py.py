@@ -7,9 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1soEbM-nB4u8RV1rnog-FaGHiriD4SK9A
 """
 
-!pip install scikit-learn
-!pip install seaborn
-!pip install matplotlib
+import subprocess
+
+# Install required packages
+subprocess.run(['pip', 'install', 'scikit-learn', 'streamlit', 'pandas', 'seaborn', 'matplotlib'])
 import streamlit as st
 import pandas as pd
 from PIL import Image
