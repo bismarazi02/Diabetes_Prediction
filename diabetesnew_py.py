@@ -8,31 +8,14 @@ Original file is located at
     https://colab.research.google.com/drive/1soEbM-nB4u8RV1rnog-FaGHiriD4SK9A
 """
 
-# Install required packages
-pip install scikit-learn
-pip install streamlit
-pip install pandas
-pip install seaborn
-pip install  matplotlib
-streamlit run diabetesnew.py
-try:
-    import streamlit as st
-    import pandas as pd
-    from sklearn.ensemble import RandomForestClassifier
-    from sklearn.model_selection import train_test_split
-    from sklearn.metrics import accuracy_score
-    import seaborn as sns
-    import matplotlib.pyplot as plt
-except ImportError:
-    import subprocess
-    subprocess.run(['pip', 'install', 'scikit-learn', 'streamlit', 'pandas', 'seaborn', 'matplotlib'])
-    import streamlit as st
-    import pandas as pd
-    from sklearn.ensemble import RandomForestClassifier
-    from sklearn.model_selection import train_test_split
-    from sklearn.metrics import accuracy_score
-    import seaborn as sns
-    import matplotlib.pyplot as plt
+import streamlit as st
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 
 
 
